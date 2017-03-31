@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.lach0192.giftr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>giftr</name>
+    <description>
+        A giftr application for irthday gift ideas
+    </description>
+    <author email="lach0192@algonquinlive.com" href="http://algonquincollege.com">
+        Eric Lachapelle
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <splash density="port-ldpi" src="res/screens/screen-ldpi-portrait.png" />
+    <splash density="port-mdpi" src="res/screens/screen-mdpi-portrait.png" />
+    <splash density="port-hdpi" src="res/screens/screen-hdpi-portrait.png" />
+    <splash density="port-xhdpi" src="res/screens/screen-xhdpi-portrait.png" />
+    <splash density="land-ldpi" src="res/screens/screen-ldpi-landscape.png" />
+    <splash density="land-mdpi" src="res/screens/screen-mdpi-landscape.png" />
+    <splash density="land-hdpi" src="res/screens/screen-hdpi-landscape.png" />
+    <splash density="land-xhdpi" src="res/screens/screen-xhdpi-landscape.png" />
+    <icon density="ldpi" src="res/icons/Icon-48x48.png" />
+    <icon density="mdpi" src="res/icons/Icon-72x72.png" />
+    <icon density="hdpi" src="res/icons/Icon-96x96.png" />
+    <icon density="xhdpi" src="res/icons/Icon-144x144.png" />
+    <icon density="xxhdpi" src="res/icons/Icon-192x192.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
