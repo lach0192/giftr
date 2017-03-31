@@ -37,6 +37,8 @@ var app = {
                 dateClickedOn = localStorage.getItem("dateClickedOn");
                 giftObject = JSON.parse(localStorage.getItem(key));
                 
+                personGifts = document.getElementById("personGifts");
+                
                 console.log("loading gifts for: " + dateClickedOn);
               
                 for(var x = 0; x < giftObject.length; x++){
@@ -45,6 +47,7 @@ var app = {
                         
                         let title = document.querySelector(".title");
                         title.innerHTML = giftObject[x].name + "'s Gifts";
+                        personGifts.innerHTML = giftObject[x].name;
                         
                         for(var i = 0; i < giftObject[x].ideas.length; i++){
                             
